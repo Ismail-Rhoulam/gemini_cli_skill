@@ -9,7 +9,10 @@
   "plugins": [
     {
       "name": "gemini-cli",
-      "source": "Ismail-Rhoulam/gemini_cli_skill",
+      "source": {
+        "source": "github",
+        "repo": "Ismail-Rhoulam/gemini_cli_skill"
+      },
       "description": "Wield Google's Gemini CLI as a powerful auxiliary tool for code generation, review, analysis, and web research. Provides a second AI perspective, real-time Google Search grounding, codebase architecture analysis, and parallel code generation.",
       "version": "1.0.0",
       "author": {
