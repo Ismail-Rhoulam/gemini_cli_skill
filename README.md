@@ -15,17 +15,22 @@ This skill teaches Claude Code how to wield Gemini CLI for:
 
 ## Installation
 
-Copy the skill directory to your Claude Code skills folder:
+### Via Claude Code Marketplace (recommended)
+
+```
+/plugin marketplace add Ismail-Rhoulam/gemini_cli_skill
+/plugin install gemini-cli@gemini-cli-skills
+```
+
+### Manual Installation
 
 ```bash
 # Clone the repo
-git clone https://github.com/forayconsulting/gemini_cli_skill.git
+git clone https://github.com/Ismail-Rhoulam/gemini_cli_skill.git
 
 # Copy to Claude Code skills directory
-cp -r gemini_cli_skill ~/.claude/skills/gemini-cli
+cp -r gemini_cli_skill/skills/gemini-cli ~/.claude/skills/gemini-cli
 ```
-
-Or manually create `~/.claude/skills/gemini-cli/` and copy the files.
 
 ## Prerequisites
 
@@ -44,11 +49,11 @@ gemini  # First run prompts for auth
 
 | File | Purpose |
 |------|---------|
-| `SKILL.md` | Main skill definition - when to use, core instructions |
-| `reference.md` | Complete CLI command and flag reference |
-| `templates.md` | Reusable prompt templates for common tasks |
-| `patterns.md` | Integration patterns and workflows |
-| `tools.md` | Gemini's built-in tools documentation |
+| `skills/gemini-cli/SKILL.md` | Main skill definition - when to use, core instructions |
+| `skills/gemini-cli/reference.md` | Complete CLI command and flag reference |
+| `skills/gemini-cli/templates.md` | Reusable prompt templates for common tasks |
+| `skills/gemini-cli/patterns.md` | Integration patterns and workflows |
+| `skills/gemini-cli/tools.md` | Gemini's built-in tools documentation |
 
 ## Usage
 

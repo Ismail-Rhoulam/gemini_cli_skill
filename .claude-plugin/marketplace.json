@@ -1,0 +1,32 @@
+{
+  "name": "gemini-cli-skills",
+  "owner": {
+    "name": "Ismail-Rhoulam"
+  },
+  "metadata": {
+    "description": "Claude Code skill for orchestrating Google's Gemini CLI for code generation, review, analysis, and web research."
+  },
+  "plugins": [
+    {
+      "name": "gemini-cli",
+      "source": ".",
+      "description": "Wield Google's Gemini CLI as a powerful auxiliary tool for code generation, review, analysis, and web research. Provides a second AI perspective, real-time Google Search grounding, codebase architecture analysis, and parallel code generation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ismail-Rhoulam"
+      },
+      "repository": "https://github.com/Ismail-Rhoulam/gemini_cli_skill",
+      "license": "MIT",
+      "keywords": [
+        "gemini",
+        "google",
+        "ai",
+        "code-generation",
+        "code-review",
+        "web-search",
+        "llm"
+      ],
+      "category": "ai-tools"
+    }
+  ]
+}
